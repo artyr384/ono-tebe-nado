@@ -1,14 +1,14 @@
 
 .header {
-    padding: 92px 49px 92px 51px;
+    padding: 91px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .header__logo {
-    width: 148px;
-    margin-right: 73px;
+    width: 138px;
+    margin-right: 93px;
 }
 
 .header__links-list {
@@ -36,20 +36,19 @@
 
 
 .cover {
-    padding: 165px 50px 147px 50px;
+    padding: 160px 50px 0 50px;
     display: flex;
     flex-direction: column;
     background-image: url(../images/cover.jpg);
     gap: 135px;
-    margin-bottom: 180px;
     background-size: cover;
 }
 
-.aligned-text{
+.aligned-text {
     display: block;
     font-size: 100px;
     font-weight: 700;
-    line-height: 115px;
+    line-height: 127%;
     color: #FFFFFF;
     text-transform: uppercase;
     letter-spacing: 0.3em;
@@ -69,6 +68,7 @@
 
 .aligned-text_right {
     text-align: right;
+    line-height: 114%;
 }
 
 .cover__description {
@@ -76,6 +76,7 @@
     align-items: center;
     justify-content: right;
     gap: 78px;
+    padding-bottom: 50px;
 }
 
 .cover__description-text {
@@ -85,7 +86,7 @@
     font-size: 22px;
     line-height: 28px;
     text-transform: uppercase;
-    word-spacing: 20px;
+    word-spacing: 18px;
 }
 
 .bet-button {
@@ -100,7 +101,7 @@
 }
 
 .lots {
-    padding: 180px 50px;
+    padding: 180px 50px 0 50px;
 }
 
 .lots__heading {
@@ -187,7 +188,7 @@
 }
 
 .about {
-    padding: 180px 50px;
+    padding: 180px 50px 0 50px;
 }
 
 .about__column {
@@ -229,7 +230,7 @@
 
 .footer {
     display: flex;
-    padding: 0 50px 90px 50px;
+    padding: 181px 50px 90px 50px;
     justify-content: space-between;
 }
 

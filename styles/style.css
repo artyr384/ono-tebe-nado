@@ -123,7 +123,7 @@
 }
 
 .lots__card-list-item {
-    min-width: 430px;
+    width: 430px;
     min-height: 450px;
     margin-bottom: 30px;
     flex-grow: 1;
@@ -198,8 +198,8 @@
 .about__column {
     display: grid;
     grid-template-columns: 430px auto;
-    grid-template-rows: 235px 114px 115px;
-    gap: 25px;
+    grid-template-rows: 240px 114px 115px;
+    gap: 8px 25px;
 }
 
 .about__logo {

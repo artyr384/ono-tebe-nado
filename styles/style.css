@@ -8,7 +8,7 @@
 
 .header__logo {
     width: 138px;
-    margin-right: 113px;
+    margin-right: 120px;
 }
 
 .header__links-list {
@@ -119,6 +119,7 @@
     display: flex;
     justify-content: space-between;
     list-style: none;
+    gap: 25px;
 }
 
 .lots__card-list-item {

@@ -1,56 +1,65 @@
-
 .header {
-    padding: 91px 50px;
     display: flex;
-    justify-content: space-between;
+    padding: 91px 50px;
     align-items: center;
-}
-
-.header__logo {
-    margin-left: 213px;
-}
-
-.header__logo-image {
-    display: block;
-    width: 138px;
-    height: auto;
-}
-
-.header__links-list {
+  }
+  
+  .header__menu {
+    padding-inline-start: 0;
+  }
+  
+  .header__links-list {
     display: flex;
     gap: 33px;
-}
-
-.header__links-list-item {
+  }
+  
+  .header__links-list-item {
     list-style: circle;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-}
-
-.header__links-list-item_no-bullit {
+  }
+  
+  .header__links-list-item_no-bullit {
     list-style: none;
-}
-
-.header__link_active {
+  }
+  
+  .header__link_active {
     text-decoration: none;
-}
-
-.header__address {
-    display: flex;
-    flex-direction: column;
+  }
+  
+  .header__link {
+   text-decoration: none;
+   border-bottom: 1px solid black;
+  }
+  
+  .header__logo {
+  margin-left: 213px;
+  }
+  
+  .header__logo-image {
+    display: block;
+    width: 138px;
+    height: auto;
+  }
+  
+  .header__address {
     margin-left: auto;
-    
-}
-
-.address {
+  }
+  
+  .address {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 135%;
-}
+  }
+  
+  .address a {
+    text-decoration: none;
+    border-bottom: 1px solid black;
+  }  
 
 .cover {
     padding: 160px 50px 0 50px;

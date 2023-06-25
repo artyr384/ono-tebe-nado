@@ -8,7 +8,7 @@
 
 .header__logo {
     width: 138px;
-    margin-right: 120px;
+    margin-right: 130px
 }
 
 .header__links-list {
@@ -39,7 +39,7 @@
 }
 
 .address {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -93,6 +93,7 @@
 
 .cover__description-text {
     color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -104,8 +105,10 @@
 .bet-button {
     color: #FFFFFF;
     background-color: transparent;
+    text-transform: uppercase;
     border: 1px solid #FFFFFF;
     padding: 12px 32px;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;

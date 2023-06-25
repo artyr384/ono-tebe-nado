@@ -7,8 +7,13 @@
 }
 
 .header__logo {
+    margin-left: 213px;
+}
+
+.header__logo-image {
+    display: block;
     width: 138px;
-    margin-right: 130px
+    height: auto;
 }
 
 .header__links-list {
@@ -35,6 +40,7 @@
 .header__address {
     display: flex;
     flex-direction: column;
+    margin-left: auto;
     
 }
 

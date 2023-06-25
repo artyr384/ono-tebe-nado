@@ -45,7 +45,7 @@
   }
   
   .header__address {
-    margin-left: 430px;
+    margin-left: 460px;
   }
   
   .address {
@@ -275,7 +275,7 @@
     line-height: 21px;
     text-align: center;
     list-style: none;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
 .footer__menu-link_active {

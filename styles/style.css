@@ -66,6 +66,17 @@
     background-image: url(../images/cover.jpg);
     gap: 121px;
     background-size: cover;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .aligned-text {
@@ -77,6 +88,10 @@
     color: #FFFFFF;
     text-transform: uppercase;
     letter-spacing: 0.3em;
+    z-index: 3;
+}
+.cover__title {
+    z-index: 3;
 }
 
 .letter-spacing-extended {
@@ -172,6 +187,7 @@
     justify-content: space-between;
     flex-direction: column;
     font-style: normal;
+    position: relative;
 }
 
 .card__title {
